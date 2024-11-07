@@ -18,4 +18,8 @@ Next
     HALT
 ptInput  .FILL x4000
     .END
+	.ORIG x4000
+Number .FILL x3322 
+Count  .BLKW #1     ; Output should be 6
+	.END
     
